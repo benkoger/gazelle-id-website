@@ -21,7 +21,6 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('blogapp.urls')),
-    url(r'^imagefit/', include('imagefit.urls')),
 ]
 
 if settings.DEBUG is True:
